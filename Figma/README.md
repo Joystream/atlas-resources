@@ -24,13 +24,13 @@ As an Atlas Design Team, we use Figma in the [Professional tier](https://www.fig
 ![Figma Team structure](src/Figma%20Screenshot.png)
 _💡 Tip: You can pin Projects to your sidebar in Figma, by clicking on the star next to the Project card. Pinned Projects can be rearranged._
 
-<style>
+<!-- <style>
 .caption {
   font-size: .9em;
   color: gray;
 }
 </style>
-
+ -->
 <table>
 <thead>
   <tr>
