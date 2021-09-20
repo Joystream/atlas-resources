@@ -1,0 +1,377 @@
+{
+  "type": "color",
+  "inital": {
+    "neutral": {
+      "default": {
+        "900": {
+          "value": "#0B0C0F"
+        },
+        "800": {
+          "value": "#181C20"
+        },
+        "700": {
+          "value": "#272D33"
+        },
+        "600": {
+          "value": "#343D44"
+        },
+        "500": {
+          "value": "#424E57"
+        },
+        "400": {
+          "value": "#52616B"
+        },
+        "300": {
+          "value": "#7B8A95"
+        },
+        "200": {
+          "value": "#B5C1C9"
+        },
+        "100": {
+          "value": "#DAE2EB"
+        },
+        "50": {
+          "value": "#F4F6F8"
+        }
+      },
+      "lighten": {
+        "description": "A transparent version of the ‘Neutral / Default’ palette, with the same look when placed against a pure white background",
+        "900": {
+          "value": "#B7C8FA0F"
+        },
+        "800": {
+          "value": "#B9D7F621"
+        },
+        "700": {
+          "value": "#C3E1FF33"
+        },
+        "600": {
+          "value": "#C1E2FC45"
+        },
+        "500": {
+          "value": "#BDDFF959"
+        },
+        "400": {
+          "value": "#C3E7FF6B"
+        },
+        "300": {
+          "value": "#D0EAFD96"
+        },
+        "200": {
+          "value": "#E5F4FEC9"
+        },
+        "100": {
+          "value": "#EAF3FDED"
+        },
+        "50": {
+          "value": "#F9FBFDFA"
+        }
+      },
+      "darken": {
+        "description": "A transparent version of the ‘Neutral / Default’ palette, with the same look when placed against a pure black background",
+        "900": {
+          "value": "#010205F5"
+        },
+        "800": {
+          "value": "#01060AE8"
+        },
+        "700": {
+          "value": "#01080FD9"
+        },
+        "600": {
+          "value": "#010D15CC"
+        },
+        "500": {
+          "value": "#03131FBF"
+        },
+        "400": {
+          "value": "#011725AD"
+        },
+        "300": {
+          "value": "#011E3385"
+        },
+        "200": {
+          "value": "#08304B4D"
+        },
+        "100": {
+          "value": "#083E7A26"
+        },
+        "50": {
+          "value": "##234B730D"
+        }
+      }
+    },
+    "blue": {
+      "900": {
+        "value": "#08071E"
+      },
+      "800": {
+        "value": "#1B186C"
+      },
+      "700": {
+        "value": "#2823A0"
+      },
+      "600": {
+        "value": "#342ECF"
+      },
+      "500": {
+        "value": "#4038FF",
+        "description": "Joystream brand primary color"
+      },
+      "400": {
+        "value": "#5A58FF"
+      },
+      "300": {
+        "value": "#7174FF"
+      },
+      "200": {
+        "value": "#8890FF"
+      },
+      "100": {
+        "value": "#9FACFF"
+      },
+      "50": {
+        "value": "#BECAFF"
+      }
+    },
+    "green": {
+      "900": {
+        "value": "#010D06"
+      },
+      "800": {
+        "value": "#042D15"
+      },
+      "700": {
+        "value": "#05441F"
+      },
+      "600": {
+        "value": "#075829"
+      },
+      "500": {
+        "value": "#096C32"
+      },
+      "400": {
+        "value": "#0A823C"
+      },
+      "300": {
+        "value": "#0C9846"
+      },
+      "200": {
+        "value": "#0EB152"
+      },
+      "100": {
+        "value": "#12CC60"
+      },
+      "50": {
+        "value": "#75E1A2"
+      }
+    },
+    "red": {
+      "900": {
+        "value": "#150605"
+      },
+      "800": {
+        "value": "#4A1410"
+      },
+      "700": {
+        "value": "#6D1E18"
+      },
+      "600": {
+        "value": "#8D261F"
+      },
+      "500": {
+        "value": "#AE2F26"
+      },
+      "400": {
+        "value": "#CF382D"
+      },
+      "300": {
+        "value": "#F34235"
+      },
+      "200": {
+        "value": "#FF695F"
+      },
+      "100": {
+        "value": "#FF948D"
+      },
+      "50": {
+        "value": "#FFBBB7"
+      }
+    },
+    "yellow": {
+      "900": {
+        "value": "#0A0900"
+      },
+      "800": {
+        "value": "#302800"
+      },
+      "700": {
+        "value": "#4A3D01"
+      },
+      "600": {
+        "value": "#615001"
+      },
+      "500": {
+        "value": "#786401"
+      },
+      "400": {
+        "value": "#917901"
+      },
+      "300": {
+        "value": "#AC9002"
+      },
+      "200": {
+        "value": "#CAA802"
+      },
+      "100": {
+        "value": "#ECC502"
+      },
+      "50": {
+        "value": "#FEE879"
+      }
+    }
+  },
+  "derived": {
+    "text": {
+      "description": "Colors for text & icons"
+      "muted": {
+        "value": "{initial.neutral.default.400}",
+        "description": "Disabled text, placeholders, etc."
+      },
+      "default": {
+        "value": "{initial.neutral.default.500}",
+        "description": "Paragraphs, captions, etc."
+      },
+      "strong": {
+        "value": "{initial.neutral.default.600}",
+        "description": "Headlines, component labels, etc."
+      },
+      "accent": {
+        "primary": {
+          "value": "{initial.blue.300}",
+          "description": "Accent, links etc."
+        },
+        "error": {
+          "value": "{initial.red.300}",
+          "description": "Warning & error, etc."
+        },
+        "success": {
+          "value": "{initial.green.300}",
+          "description": "Positive text, etc."
+        }
+      }
+    },
+    "border": {
+      "muted": {
+        "solid": {
+          "value": "{initial.neutral.default.700}"
+        },
+        "alpha": {
+          "value": "{initial.neutral.lighten.700}",
+          "description": "Dividers, separators, etc."
+        }
+      },
+      "default": {
+        "solid": {
+          "value": "{initial.neutral.default.500}"
+        },
+        "alpha": {
+          "value": "{initial.neutral.lighten.500}",
+          "description": "Component borders on default states"
+        }
+      },
+      "defaukt": {
+        "solid": {
+          "value": "{initial.neutral.default.300}"
+        },
+        "alpha": {
+          "value": "{initial.neutral.lighten.300}",
+          "description": "Component borders on hover states"
+        }
+      }
+    },
+    "background": {
+      "muted": {
+        "solid": {
+          "value": "{initial.neutral.default.900}",
+          "description": "1st level section, cards, etc."
+        },
+        "alpha": {
+          "value": "{initial.neutral.lighten.900}"
+        }
+      },
+      "default": {
+        "solid": {
+          "value": "{initial.neutral.default.800}",
+          "description": "2nd level section, cards, etc."
+        },
+        "alpha": {
+          "value": "{initial.neutral.lighten.800}",
+          "description": "Component backgrounds (eg. buttons) on hover states"
+        }
+      },
+      "strong": {
+        "solid": {
+          "value": "{initial.neutral.default.700}",
+          "description": "Windows, dialogs, side sheets, etc."
+        },
+        "alpha": {
+          "value": "{initial.neutral.lighten.700}",
+          "description": "Component backgrounds (eg. buttons) on pressed states"
+        }
+      },
+      "elevated": {
+        "value": "{initial.neutral.default.600}",
+        "description": "Dropdowns, popovers, etc."
+      },
+      "overlay": {
+        "value": "{initial.neutral.darken.700}",
+        "description": "Overlay behind dialogs, side sheets, etc."
+      },
+      "accent": {
+        "primary": {
+          "muted": {
+            "value": "{initial.blue.600}",
+            "description": "Component backgrounds (eg. buttons) on pressed states"
+          },
+          "default": {
+            "value": "{initial.blue.500}",
+            "description": "Component backgrounds (eg. buttons) on default states, callouts, etc."
+          },
+          "strong": {
+            "value": "{initial.blue.400}",
+            "description": "Component backgrounds (eg. buttons) on hover statess"
+          }
+        },
+        "error": {
+          "muted": {
+            "value": "{initial.red.600}",
+            "description": "Component backgrounds (eg. buttons) on pressed states"
+          },
+          "default": {
+            "value": "{initial.red.500}",
+            "description": "Component backgrounds (eg. buttons) on default states, callouts, etc."
+          },
+          "strong": {
+            "value": "{initial.red.400}",
+            "description": "Component backgrounds (eg. buttons) on hover statess"
+          }
+        },
+        "success": {
+          "muted": {
+            "value": "{initial.green.600}",
+            "description": "Component backgrounds (eg. buttons) on pressed states"
+          },
+          "default": {
+            "value": "{initial.green.500}",
+            "description": "Component backgrounds (eg. buttons) on default states, callouts, etc."
+          },
+          "strong": {
+            "value": "{initial.green.400}",
+            "description": "Component backgrounds (eg. buttons) on hover statess"
+          }
+        }
+      }
+    }
+  }
+}
