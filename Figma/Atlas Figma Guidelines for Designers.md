@@ -68,7 +68,7 @@ When setting up component variants in Figma, if applicable, the following order 
     <td></td>
   </tr>
   <tr>
-    <td><code>Style</code></td>
+    <td><code>Variant</code></td>
     <td>
       <li><code>Primary</code></li>
       <li><code>Secondary</code></li>
