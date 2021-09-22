@@ -16,13 +16,13 @@ When setting up component variants in Figma, if applicable, the following order 
   <tr>
     <td><code>Breakpoint</code></td>
     <td>
-      <li><code>>= XXS</code> (320px)</li>
-      <li><code>>= XS</code> (425px)</li>
-      <li><code>>= SM</code> (768px)</li>
-      <li><code>>= MD</code> (1024px)</li>
-      <li><code>>= LG</code> (1440px)</li>
-      <li><code>>= XL</code> (1920px)</li>
-      <li><code>>= XXL</code> (2560px)</li>
+      <li><code>XXS</code> (320px)</li>
+      <li><code>XS</code> (425px)</li>
+      <li><code>SM</code> (768px)</li>
+      <li><code>MD</code> (1024px)</li>
+      <li><code>LG</code> (1440px)</li>
+      <li><code>XL</code> (1920px)</li>
+      <li><code>XXL</code> (2560px)</li>
     </td>
     <td>Complex components might require additional variants for different viewport sizes. In such case, the above-mentioned order should be used.</td>
   </tr>
