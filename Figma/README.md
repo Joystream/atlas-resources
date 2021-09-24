@@ -4,7 +4,7 @@
 
 1. [Viewer designs](https://www.figma.com/files/project/33106300/%F0%9F%91%A9%F0%9F%8F%BE%E2%80%8D%F0%9F%A6%B1-Viewer?fuid=730334878476004289),
 2. [Publisher designs](https://www.figma.com/files/project/33106318/%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D-Publisher?fuid=730334878476004289),
-3. ["Joystream Atlas" file](https://www.figma.com/file/Vk2Z4QOiVa5bB6q3cBIG5J/Joystream-Atlas),
+3. **["Joystream Atlas" legacy file](https://www.figma.com/file/Vk2Z4QOiVa5bB6q3cBIG5J/Joystream-Atlas)**,
 4. [Web Components](https://www.figma.com/file/Pf31tuYpozYmpq163U2ho8/Web-Components),
 5. [Foundation](https://www.figma.com/file/Cc3VDoK6qglJ617ChA2EMr/Foundation),
 
