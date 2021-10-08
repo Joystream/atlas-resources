@@ -1,6 +1,6 @@
 {
   "type": "color",
-  "inital": {
+  "core": {
     "neutral": {
       "default": {
         "900": {
@@ -235,57 +235,57 @@
     "text": {
       "description": "Colors for text & icons"
       "muted": {
-        "value": "{initial.neutral.default.400}",
+        "value": "{core.neutral.default.400}",
         "description": "Disabled text, placeholders, etc."
       },
       "default": {
-        "value": "{initial.neutral.default.500}",
+        "value": "{core.neutral.default.500}",
         "description": "Paragraphs, captions, etc."
       },
       "strong": {
-        "value": "{initial.neutral.default.600}",
+        "value": "{core.neutral.default.600}",
         "description": "Headlines, component labels, etc."
       },
       "accent": {
         "primary": {
-          "value": "{initial.blue.300}",
+          "value": "{core.blue.300}",
           "description": "Accent, links etc."
         },
         "error": {
-          "value": "{initial.red.300}",
-          "description": "Warning & error, etc."
+          "value": "{core.red.300}",
+          "description": "Error, warning text etc."
         },
         "success": {
-          "value": "{initial.green.300}",
-          "description": "Positive text, etc."
+          "value": "{core.green.300}",
+          "description": "Success, positive text, etc."
         }
       }
     },
     "border": {
       "muted": {
         "solid": {
-          "value": "{initial.neutral.default.700}"
+          "value": "{core.neutral.default.700}"
         },
         "alpha": {
-          "value": "{initial.neutral.lighten.700}",
+          "value": "{core.neutral.lighten.700}",
           "description": "Dividers, separators, etc."
         }
       },
       "default": {
         "solid": {
-          "value": "{initial.neutral.default.500}"
+          "value": "{core.neutral.default.500}"
         },
         "alpha": {
-          "value": "{initial.neutral.lighten.500}",
+          "value": "{core.neutral.lighten.500}",
           "description": "Component borders on default states"
         }
       },
-      "defaukt": {
+      "strong": {
         "solid": {
-          "value": "{initial.neutral.default.300}"
+          "value": "{core.neutral.default.300}"
         },
         "alpha": {
-          "value": "{initial.neutral.lighten.300}",
+          "value": "{core.neutral.lighten.300}",
           "description": "Component borders on hover states"
         }
       }
@@ -293,82 +293,87 @@
     "background": {
       "muted": {
         "solid": {
-          "value": "{initial.neutral.default.900}",
+          "value": "{core.neutral.default.900}",
           "description": "1st level section, cards, etc."
         },
         "alpha": {
-          "value": "{initial.neutral.lighten.900}"
+          "value": "{core.neutral.lighten.900}"
         }
       },
       "default": {
         "solid": {
-          "value": "{initial.neutral.default.800}",
+          "value": "{core.neutral.default.800}",
           "description": "2nd level section, cards, etc."
         },
         "alpha": {
-          "value": "{initial.neutral.lighten.800}",
-          "description": "Component backgrounds (eg. buttons) on hover states"
+          "value": "{core.neutral.lighten.800}",
+          "description": "Component backgrounds on hover states"
         }
       },
       "strong": {
         "solid": {
-          "value": "{initial.neutral.default.700}",
+          "value": "{core.neutral.default.700}",
           "description": "Windows, dialogs, side sheets, etc."
         },
         "alpha": {
-          "value": "{initial.neutral.lighten.700}",
-          "description": "Component backgrounds (eg. buttons) on pressed states"
+          "value": "{core.neutral.lighten.700}",
+          "description": "Component backgrounds on pressed states"
         }
       },
       "elevated": {
-        "value": "{initial.neutral.default.600}",
-        "description": "Dropdowns, popovers, etc."
+        "solid": {
+          "value": "{core.neutral.default.600}",
+          "description": "Dropdowns, popovers, etc."
+        },
+        "alpha": {
+          "value": "{core.neutral.lighten.600}"
+        }
       },
       "overlay": {
-        "value": "{initial.neutral.darken.700}",
+        "value": "{core.neutral.darken.700}",
         "description": "Overlay behind dialogs, side sheets, etc."
       },
       "accent": {
         "primary": {
           "muted": {
-            "value": "{initial.blue.600}",
-            "description": "Component backgrounds (eg. buttons) on pressed states"
+            "value": "{core.blue.600}",
+            "description": "Component backgrounds on pressed states"
           },
           "default": {
-            "value": "{initial.blue.500}",
-            "description": "Component backgrounds (eg. buttons) on default states, callouts, etc."
+            "value": "{core.blue.500}",
+            "description": "Component backgrounds on default states, callouts, etc."
           },
           "strong": {
-            "value": "{initial.blue.400}",
-            "description": "Component backgrounds (eg. buttons) on hover statess"
+            "value": "{core.blue.400}",
+            "description": "Component backgrounds on hover statess"
           }
         },
         "error": {
           "muted": {
-            "value": "{initial.red.600}",
-            "description": "Component backgrounds (eg. buttons) on pressed states"
+            "value": "{core.red.600}",
+            "description": "Component backgrounds on pressed states"
           },
           "default": {
-            "value": "{initial.red.500}",
-            "description": "Component backgrounds (eg. buttons) on default states, callouts, etc."
+            "value": "{core.red.500}",
+            "description": "Component backgrounds on default states, callouts, etc."
           },
           "strong": {
-            "value": "{initial.red.400}",
-            "description": "Component backgrounds (eg. buttons) on hover statess"
+            "value": "{core.red.400}",
+            "description": "Component backgrounds on hover statess"
           }
         },
         "success": {
           "muted": {
-            "value": "{initial.green.600}",
-            "description": "Component backgrounds (eg. buttons) on pressed states"
+            "value": "{core.green.600}",
+            "description": "Component backgrounds on pressed states"
           },
           "default": {
-            "value": "{initial.green.500}",
-            "description": "Component backgrounds (eg. buttons) on default states, callouts, etc."
+            "value": "{core.green.500}",
+            "description": "Component backgrounds on default states, callouts, etc."
           },
           "strong": {
-            "value": "{initial.green.400}",
-            "description": "Component backgrounds (eg. buttons) on hover statess"
+            "value": "{core.green.400}",
+            "description": "Component backgrounds on hover statess"
           }
         }
       }
