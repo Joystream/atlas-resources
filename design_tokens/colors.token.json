@@ -233,7 +233,7 @@
   },
   "derived": {
     "text": {
-      "description": "Colors for text & icons"
+      "description": "Colors for text & icons",
       "muted": {
         "value": "{core.neutral.default.400}",
         "description": "Disabled text, placeholders, etc."
