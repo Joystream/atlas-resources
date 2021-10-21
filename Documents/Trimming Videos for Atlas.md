@@ -2,7 +2,7 @@
 
 The purpose of this document is to provide technical guidance for content curators on trimming down video files to be later displayed in featured videos hero sections on Atlas.
 
-## Check the license
+## Video license
 Make sure the video is suited for `All audiences` and that its license is one of the following:
 - `CC0`
 - `PDM`
