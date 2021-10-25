@@ -342,7 +342,7 @@
         }
       },
       "overlay": {
-        "value": "{core.neutral.700.darken}",
+        "value": "{core.neutral.500.darken}",
         "description": "Overlay behind dialogs, side sheets, etc."
       }
     },
