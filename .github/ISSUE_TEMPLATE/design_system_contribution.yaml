@@ -12,4 +12,5 @@ body:
   validations:
     required: true
 - type: markdown
-  value: "Additional context for your request!"
+  attributes:
+    value: "Additional context for your request!"
