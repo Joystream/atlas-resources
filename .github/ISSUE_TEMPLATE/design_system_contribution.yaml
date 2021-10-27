@@ -1,16 +1,8 @@
-name: Design System Contribution
-description: Contribute to Atlas Design System
-title: "[DS]: "
+name: Design system contribution idea
+description: Contribute to the Atlas Design System
+assignees: "toiletgranny"
 labels: "design-system"
 body:
-- type: input
-  id: summary
-  attributes:
-    label: Summary
-    description: "What would you like to have done?"
-    placeholder: "I need a new icon, or I need a new component"
-  validations:
-    required: true
 - type: textarea
   id: description
   attributes:
@@ -18,6 +10,14 @@ body:
     description: "Give us a little context around your contribution idea."
   validations:
     required: true
+- type: input
+  id: component-link
+  attributes:
+    label: Component in Figma
+    description: "If this is about an existing component, provide a Figma link"
+    placeholder: "https://www.figma.com/file/Pf31tuYpozYmpq163U2ho8/Web-Components?node-id=..."
+  validations:
+    required: false
 - type: dropdown
   id: priority
   attributes:
