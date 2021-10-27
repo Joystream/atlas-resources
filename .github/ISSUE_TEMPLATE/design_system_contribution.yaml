@@ -4,10 +4,17 @@ title: "[DS]: "
 labels: "design-system"
 body:
 - type: input
-  id: prevalence
+  id: summary
   attributes:
-    label: Bug prevalence
-    description: "How often do you or others encounter this bug?"
-    placeholder: "Whenever I visit the user account page (1-2 times a week)"
+    label: Summary
+    description: "What would you like to have done?"
+    placeholder: "I need a new icon, or I need a new component"
+  validations:
+    required: true
+- type: markdown
+  id: description
+  attributes:
+    label: Description
+    description: "Additional context for your request"
   validations:
     required: true
