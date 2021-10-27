@@ -18,10 +18,9 @@ body:
     label: Reproduction steps
     description: "How do you trigger this bug? Please walk us through it step by step."
     value: |
-      1.
-      2.
-      3.
-      ...
+      1. Hello
+      2. Hello2
+      3. Hello3
     render: bash
   validations:
     required: true
@@ -33,4 +32,5 @@ body:
     options:
       - label: Orange cat (required. Everyone likes orange cats.)
         required: true
-      - label: **Black cat**
+      - label: Orange cat (required. Everyone likes orange cats.)
+        required: true
