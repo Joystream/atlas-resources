@@ -12,5 +12,8 @@ body:
   validations:
     required: true
 - type: markdown
+  value: "## Welcome!"
+- type: markdown
   attributes:
-    value: "Additional context for your request!"
+    value: |
+      Thanks for taking the time to fill out this bug! If you need real-time help, join us on Discord.
