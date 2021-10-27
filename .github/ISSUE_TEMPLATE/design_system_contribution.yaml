@@ -11,7 +11,20 @@ body:
     placeholder: "I need a new icon, or I need a new component"
   validations:
     required: true
-- type: markdown
+- type: textarea
+  id: description
   attributes:
-    value: |
-      Thanks for taking the time to fill out this bug! If you need real-time help, join us on Discord.
+    label: Description
+    description: "Give us a little context around your contribution idea."
+  validations:
+    required: true
+- type: dropdown
+  id: priority
+  attributes:
+    label: How important this is to you?
+    options:
+      - "It's blocking me right now"
+      - "This will block me soon"
+      - "Not a blocker, but still worth considering"
+  validations:
+    required: true
