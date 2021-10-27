@@ -7,21 +7,21 @@ body:
   id: description
   attributes:
     label: Description
-    description: "Give us a little context around your contribution idea."
+    description: "What would you like to have done?"
   validations:
     required: true
 - type: input
   id: component-link
   attributes:
-    label: Component in Figma
-    description: "If this is about an existing component, provide a Figma link"
+    label: Figma link
+    description: "If this is about an existing component, please, provide a Figma link"
     placeholder: "https://www.figma.com/file/Pf31tuYpozYmpq163U2ho8/Web-Components?node-id=..."
   validations:
     required: false
 - type: dropdown
   id: priority
   attributes:
-    label: How important this is to you?
+    label: How urgent this is?
     options:
       - "It's blocking me right now"
       - "This will block me soon"
