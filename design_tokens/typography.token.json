@@ -588,7 +588,7 @@
           }
         }
       }
-    }
+    },
     "mobile": {
       "type": "{textStylesAlt.textStyleType}",
       "heading": {
