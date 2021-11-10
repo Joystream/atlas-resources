@@ -321,7 +321,7 @@
           "value": {
             "fontFamily": "{fonts.primary}",
             "fontSize": "{fontSizes.3}",
-            "fontWeight": "{fontWeights.regular}",
+            "fontWeight": "{fontWeights.normal}",
             "lineHeight": "1.5rem"
           }
         },
@@ -339,7 +339,7 @@
           "value": {
             "fontFamily": "{fonts.primary}",
             "fontSize": "{fontSizes.3}",
-            "fontWeight": "{fontWeights.regular}",
+            "fontWeight": "{fontWeights.normal}",
             "lineHeight": "1.5rem"
           }
         },
@@ -360,7 +360,7 @@
           "value": {
             "fontFamily": "{fonts.primary}",
             "fontSize": "{fontSizes.2}",
-            "fontWeight": "{fontWeights.regular}",
+            "fontWeight": "{fontWeights.normal}",
             "lineHeight": "1.25rem",
             "letterSpacing": "0.005em"
           }
@@ -380,7 +380,7 @@
           "value": {
             "fontFamily": "{fonts.primary}",
             "fontSize": "{fontSizes.2}",
-            "fontWeight": "{fontWeights.regular}",
+            "fontWeight": "{fontWeights.normal}",
             "lineHeight": "1.25rem",
             "letterSpacing": "0.005em"
           }
@@ -560,7 +560,7 @@
             "value": {
               "fontFamily": "{fonts.primary}",
               "fontSize": "{fontSizes.3}",
-              "fontWeight": "{fontWeights.regular}",
+              "fontWeight": "{fontWeights.normal}",
               "lineHeight": "1.5rem"
             }
           },
@@ -578,7 +578,7 @@
             "value": {
               "fontFamily": "{fonts.primary}",
               "fontSize": "{fontSizes.2}",
-              "fontWeight": "{fontWeights.regular}",
+              "fontWeight": "{fontWeights.normal}",
               "lineHeight": "1.25rem",
               "letterSpacing": "0.005em"
             }
@@ -703,7 +703,7 @@
             "value": {
               "fontFamily": "{fonts.primary}",
               "fontSize": "{fontSizes.3}",
-              "fontWeight": "{fontWeights.regular}",
+              "fontWeight": "{fontWeights.normal}",
               "lineHeight": "1.5rem"
             }
           },
@@ -721,7 +721,7 @@
             "value": {
               "fontFamily": "{fonts.primary}",
               "fontSize": "{fontSizes.2}",
-              "fontWeight": "{fontWeights.regular}",
+              "fontWeight": "{fontWeights.normal}",
               "lineHeight": "1.25rem",
               "letterSpacing": "0.005em"
             }
