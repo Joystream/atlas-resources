@@ -39,22 +39,48 @@
   "fontSizes": {
     "type": "dimension",
     "description": "Based on the formula outlined in this article: https://spencermortensen.com/articles/typographic-scale/",
-    "value": [
-      "0.75rem",
-      "0.875rem",
-      "1rem",
-      "1.125rem",
-      "1.3125rem",
-      "1.5rem",
-      "1.75rem",
-      "2rem",
-      "2.25rem",
-      "2.625rem",
-      "3rem",
-      "3.4375rem",
-      "3.9375rem",
-      "4.5625rem"
-    ]
+    "1": {  
+        "value": "0.75rem"
+    },
+    "2": {  
+      "value": "0.875rem"
+    },
+    "3": {  
+      "value": "1rem"
+    },
+    "4": {  
+      "value": "1.125rem"
+    },
+    "5": {  
+      "value": "1.3125rem"
+    },
+    "6": {  
+      "value": "1.5rem"
+    },
+    "7": {  
+      "value": "1.75rem"
+    },
+    "8": {  
+      "value": "2rem"
+    },
+    "9": {  
+      "value": "2.25rem"
+    },
+    "10": {  
+      "value": "2.625rem"
+    },
+    "11": {  
+      "value": "3rem"
+    },
+    "12": {  
+      "value": "3.4375rem"
+    },
+    "13": {  
+      "value": "3.9375rem"
+    },
+    "14": {
+      "value": "4.5625rem"
+    }
   },
   "fontWeights": {
     "type": "custom-font-weight",
@@ -109,7 +135,7 @@
       "mobile": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[7]}",
+          "fontSize": "{fontSizes.8}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "2.5rem"
         }
@@ -117,7 +143,7 @@
       "desktop": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[13]}",
+          "fontSize": "{fontSizes.14}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "5rem",
           "letterSpacing": "-0.01em"
@@ -129,7 +155,7 @@
       "mobile": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[6]}",
+          "fontSize": "{fontSizes.7}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "2rem"
         }
@@ -137,7 +163,7 @@
       "desktop": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[11]}",
+          "fontSize": "{fontSizes.12}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "4rem",
           "letterSpacing": "-0.005em"
@@ -149,7 +175,7 @@
       "mobile": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[5]}",
+          "fontSize": "{fontSizes.6}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "2rem"
         }
@@ -157,7 +183,7 @@
       "desktop": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[9]}",
+          "fontSize": "{fontSizes.10}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "3.5rem"
         }
@@ -168,7 +194,7 @@
       "mobile": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[4]}",
+          "fontSize": "{fontSizes.5}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "1.5rem"
         }
@@ -176,7 +202,7 @@
       "desktop": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[7]}",
+          "fontSize": "{fontSizes.8}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "2.5rem"
         }
@@ -187,7 +213,7 @@
       "mobile": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[3]}",
+          "fontSize": "{fontSizes.4}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "1.5rem",
           "letterSpacing": "0.005em"
@@ -196,7 +222,7 @@
       "desktop": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[5]}",
+          "fontSize": "{fontSizes.6}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "2rem"
         }
@@ -207,7 +233,7 @@
       "mobile": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[2]}",
+          "fontSize": "{fontSizes.3}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "1.5rem",
           "letterSpacing": "0.01em"
@@ -216,7 +242,7 @@
       "desktop": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[3]}",
+          "fontSize": "{fontSizes.4}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "1.5rem",
           "letterSpacing": "0.005em"
@@ -228,7 +254,7 @@
       "mobile": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[1]}",
+          "fontSize": "{fontSizes.2}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "1.25rem",
           "letterSpacing": "0.01em"
@@ -237,7 +263,7 @@
       "desktop": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[2]}",
+          "fontSize": "{fontSizes.3}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "1.5rem",
           "letterSpacing": "0.01em"
@@ -249,7 +275,7 @@
       "mobile": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[0]}",
+          "fontSize": "{fontSizes.1}",
           "fontWeight": "{fontWeights.bold}",
           "lineHeight": "1rem",
           "letterSpacing": "0.02em"
@@ -258,7 +284,7 @@
       "desktop": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[1]}",
+          "fontSize": "{fontSizes.2}",
           "fontWeight": "{fontWeights.semibold}",
           "lineHeight": "1.25rem",
           "letterSpacing": "0.01em"
@@ -270,7 +296,7 @@
       "mobile": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[0]}",
+          "fontSize": "{fontSizes.1}",
           "fontWeight": "{fontWeights.bold}",
           "lineHeight": "1rem",
           "letterSpacing": "0.07em",
@@ -280,7 +306,7 @@
       "desktop": {
         "value": {
           "fontFamily": "{fonts.primary}",
-          "fontSize": "{fontSizes[0]}",
+          "fontSize": "{fontSizes.1}",
           "fontWeight": "{fontWeights.bold}",
           "lineHeight": "1rem",
           "letterSpacing": "0.07em",
@@ -294,7 +320,7 @@
         "regular": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[2]}",
+            "fontSize": "{fontSizes.3}",
             "fontWeight": "{fontWeights.regular}",
             "lineHeight": "1.5rem"
           }
@@ -302,7 +328,7 @@
         "strong": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[2]}",
+            "fontSize": "{fontSizes.3}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.5rem"
           }
@@ -312,7 +338,7 @@
         "regular": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[2]}",
+            "fontSize": "{fontSizes.3}",
             "fontWeight": "{fontWeights.regular}",
             "lineHeight": "1.5rem"
           }
@@ -320,7 +346,7 @@
         "strong": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[2]}",
+            "fontSize": "{fontSizes.3}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.5rem"
           }
@@ -333,7 +359,7 @@
         "regular": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[1]}",
+            "fontSize": "{fontSizes.2}",
             "fontWeight": "{fontWeights.regular}",
             "lineHeight": "1.25rem",
             "letterSpacing": "0.005em"
@@ -342,7 +368,7 @@
         "strong": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[1]}",
+            "fontSize": "{fontSizes.2}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.25rem",
             "letterSpacing": "0.005em"
@@ -353,7 +379,7 @@
         "regular": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[1]}",
+            "fontSize": "{fontSizes.2}",
             "fontWeight": "{fontWeights.regular}",
             "lineHeight": "1.25rem",
             "letterSpacing": "0.005em"
@@ -362,7 +388,7 @@
         "strong": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[1]}",
+            "fontSize": "{fontSizes.2}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.25rem",
             "letterSpacing": "0.005em"
@@ -376,7 +402,7 @@
         "regular": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[0]}",
+            "fontSize": "{fontSizes.1}",
             "fontWeight": "{fontWeights.medium}",
             "lineHeight": "1rem",
             "letterSpacing": "0.01em"
@@ -385,7 +411,7 @@
         "strong": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[0]}",
+            "fontSize": "{fontSizes.1}",
             "fontWeight": "{fontWeights.bold}",
             "lineHeight": "1rem",
             "letterSpacing": "0.01em"
@@ -396,7 +422,7 @@
         "regular": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[0]}",
+            "fontSize": "{fontSizes.1}",
             "fontWeight": "{fontWeights.medium}",
             "lineHeight": "1rem",
             "letterSpacing": "0.01em"
@@ -405,7 +431,7 @@
         "strong": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[0]}",
+            "fontSize": "{fontSizes.1}",
             "fontWeight": "{fontWeights.bold}",
             "lineHeight": "1rem",
             "letterSpacing": "0.01em"
@@ -451,7 +477,7 @@
         "H900": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[13]}",
+            "fontSize": "{fontSizes.14}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "5rem",
             "letterSpacing": "-0.01em" 
@@ -460,7 +486,7 @@
         "H800": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[11]}",
+            "fontSize": "{fontSizes.12}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "4rem",
             "letterSpacing": "-0.005em" 
@@ -469,7 +495,7 @@
         "H700": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[9]}",
+            "fontSize": "{fontSizes.10}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "3.5rem" 
           }
@@ -477,7 +503,7 @@
         "H600": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[7]}",
+            "fontSize": "{fontSizes.8}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "2.5rem"
           }
@@ -485,7 +511,7 @@
         "H500": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[5]}",
+            "fontSize": "{fontSizes.6}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "2rem"
           }
@@ -493,7 +519,7 @@
         "H400": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[3]}",
+            "fontSize": "{fontSizes.4}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.5rem",
             "letterSpacing": "0.005em"
@@ -502,7 +528,7 @@
         "H300": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[2]}",
+            "fontSize": "{fontSizes.3}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.5rem",
             "letterSpacing": "0.01em"
@@ -511,7 +537,7 @@
         "H200": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[1]}",
+            "fontSize": "{fontSizes.2}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.25rem",
             "letterSpacing": "0.01em"
@@ -520,7 +546,7 @@
         "H100": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[0]}",
+            "fontSize": "{fontSizes.1}",
             "fontWeight": "{fontWeights.bold}",
             "lineHeight": "1rem",
             "letterSpacing": "0.07em",
@@ -533,7 +559,7 @@
           "regular": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[2]}",
+              "fontSize": "{fontSizes.3}",
               "fontWeight": "{fontWeights.regular}",
               "lineHeight": "1.5rem"
             }
@@ -541,7 +567,7 @@
           "strong": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[2]}",
+              "fontSize": "{fontSizes.3}",
               "fontWeight": "{fontWeights.semibold}",
               "lineHeight": "1.5rem"
             }
@@ -551,7 +577,7 @@
           "regular": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[1]}",
+              "fontSize": "{fontSizes.2}",
               "fontWeight": "{fontWeights.regular}",
               "lineHeight": "1.25rem",
               "letterSpacing": "0.005em"
@@ -560,7 +586,7 @@
           "strong": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[1]}",
+              "fontSize": "{fontSizes.2}",
               "fontWeight": "{fontWeights.semibold}",
               "lineHeight": "1.25rem",
               "letterSpacing": "0.005em"
@@ -571,7 +597,7 @@
           "regular": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[0]}",
+              "fontSize": "{fontSizes.1}",
               "fontWeight": "{fontWeights.medium}",
               "lineHeight": "1rem",
               "letterSpacing": "0.01em"
@@ -580,7 +606,7 @@
           "strong": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[0]}",
+              "fontSize": "{fontSizes.1}",
               "fontWeight": "{fontWeights.bold}",
               "lineHeight": "1rem",
               "letterSpacing": "0.01em"
@@ -595,7 +621,7 @@
         "H900": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[7]}",
+            "fontSize": "{fontSizes.8}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "2.5rem"
           }
@@ -603,7 +629,7 @@
         "H800": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[6]}",
+            "fontSize": "{fontSizes.7}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "2rem"
           }
@@ -611,7 +637,7 @@
         "H700": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[5]}",
+            "fontSize": "{fontSizes.6}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "2rem"
           }
@@ -619,7 +645,7 @@
         "H600": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[4]}",
+            "fontSize": "{fontSizes.5}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.5rem"
           }
@@ -627,7 +653,7 @@
         "H500": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[3]}",
+            "fontSize": "{fontSizes.4}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.5rem",
             "letterSpacing": "0.005em"
@@ -636,7 +662,7 @@
         "H400": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[2]}",
+            "fontSize": "{fontSizes.3}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.5rem",
             "letterSpacing": "0.01em"
@@ -645,7 +671,7 @@
         "H300": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[1]}",
+            "fontSize": "{fontSizes.2}",
             "fontWeight": "{fontWeights.semibold}",
             "lineHeight": "1.25rem",
             "letterSpacing": "0.01em"
@@ -654,7 +680,7 @@
         "H200": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[0]}",
+            "fontSize": "{fontSizes.1}",
             "fontWeight": "{fontWeights.bold}",
             "lineHeight": "1rem",
             "letterSpacing": "0.02em"
@@ -663,7 +689,7 @@
         "H100": {
           "value": {
             "fontFamily": "{fonts.primary}",
-            "fontSize": "{fontSizes[0]}",
+            "fontSize": "{fontSizes.1}",
             "fontWeight": "{fontWeights.bold}",
             "lineHeight": "1rem",
             "letterSpacing": "0.07em",
@@ -676,7 +702,7 @@
           "regular": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[2]}",
+              "fontSize": "{fontSizes.3}",
               "fontWeight": "{fontWeights.regular}",
               "lineHeight": "1.5rem"
             }
@@ -684,7 +710,7 @@
           "strong": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[2]}",
+              "fontSize": "{fontSizes.3}",
               "fontWeight": "{fontWeights.semibold}",
               "lineHeight": "1.5rem"
             }
@@ -694,7 +720,7 @@
           "regular": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[1]}",
+              "fontSize": "{fontSizes.2}",
               "fontWeight": "{fontWeights.regular}",
               "lineHeight": "1.25rem",
               "letterSpacing": "0.005em"
@@ -703,7 +729,7 @@
           "strong": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[1]}",
+              "fontSize": "{fontSizes.2}",
               "fontWeight": "{fontWeights.semibold}",
               "lineHeight": "1.25rem",
               "letterSpacing": "0.005em"
@@ -714,7 +740,7 @@
           "regular": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[0]}",
+              "fontSize": "{fontSizes.1}",
               "fontWeight": "{fontWeights.medium}",
               "lineHeight": "1rem",
               "letterSpacing": "0.01em"
@@ -723,7 +749,7 @@
           "strong": {
             "value": {
               "fontFamily": "{fonts.primary}",
-              "fontSize": "{fontSizes[0]}",
+              "fontSize": "{fontSizes.1}",
               "fontWeight": "{fontWeights.bold}",
               "lineHeight": "1rem",
               "letterSpacing": "0.01em"
