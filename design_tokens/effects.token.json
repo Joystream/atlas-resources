@@ -1,4 +1,5 @@
 {
+  "comment": "Before proceeding with this file, we need to discuss referencing tokens from other files (colors, in this example), and the overall structure of elevation shadows",
   "shadowType": {
     "type": "typedef",
     "value": {
