@@ -131,7 +131,7 @@
       }
     },
     "desktop": {
-      "type": "{textStylesAlt.textStyleType}",
+      "type": "{textStyles.textStyleType}",
       "heading": {
         "H900": {
           "value": {
@@ -275,7 +275,7 @@
       }
     },
     "mobile": {
-      "type": "{textStylesAlt.textStyleType}",
+      "type": "{textStyles.textStyleType}",
       "heading": {
         "H900": {
           "value": {
