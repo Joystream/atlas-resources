@@ -1,13 +1,12 @@
 {
   "radius": {
+    "type": "dimension",
     "small": {
       "value": "2px",
-      "type": "dimension",
       "description": "Used for small overlay elements, such as tooltips, dropdowns, context menus, popovers, etc."
     },
     "medium": {
       "value": "4px",
-      "type": "dimension",
       "description": "Used for large overlay elements, such as dialogs, windows, drawers, etc."
     }
 }
