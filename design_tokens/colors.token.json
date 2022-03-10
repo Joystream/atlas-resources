@@ -2,6 +2,14 @@
   "color": {
     "type": "color",
     "core": {
+      "base": {
+        "black": {
+          "value": "#000"
+        },
+        "white": {
+          "value": "#FFF"
+        }
+      },
       "neutral": {
         "50": {
           "default": {
@@ -265,7 +273,7 @@
         "description": "Accent, links etc."
       },
       "error": {
-        "value": "{color.core.red.300}",
+        "value": "{color.core.red.200}",
         "description": "Errors, destructive action labels etc."
       },
       "success": {
