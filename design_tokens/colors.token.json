@@ -256,11 +256,11 @@
       "description": "Colors for text & icons",
       "default": {
         "muted": {
-          "value": "{color.core.neutral.400.default}",
+          "value": "{color.core.neutral.300.default}",
           "description": "Disabled text, placeholders, etc."
         },
         "default": {
-          "value": "{color.core.neutral.300.default}",
+          "value": "{color.core.neutral.200.default}",
           "description": "Paragraphs, captions, etc."
         },
         "strong": {
