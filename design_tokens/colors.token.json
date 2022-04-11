@@ -112,13 +112,13 @@
         },
         "900": {
           "default": {
-            "value": "#0B0C0F"
+            "value": "#0F1114"
           },
           "lighten": {
-            "value": "#B7C8FA0F"
+            "value": "#BCD5FA14"
           },
           "darken": {
-            "value": "#010205F5"
+            "value": "#020408F2"
           }
         }
       },
