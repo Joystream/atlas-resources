@@ -322,7 +322,7 @@
       "error": {
         "value": "{color.core.red.200}",
         "description": "Errors, alerts etc."
-      },
+      }
     },
     "background": {
       "default": {
